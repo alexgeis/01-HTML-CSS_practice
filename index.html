@@ -88,7 +88,7 @@
     <!-- ASIDE ON RIGHT SIDE -->
     <aside class="benefits">
       <section class="benefit">
-        <h3>Lead Generation</h3>
+        <h3>Aside Section 1</h3>
         <img src="https://placekitten.com/150/150" alt="cute kitten" />
         <p>
           I'm baby humblebrag semiotics hashtag, vinyl retro freegan
@@ -97,7 +97,7 @@
         </p>
       </section>
       <section class="benefit">
-        <h3>Brand Awareness</h3>
+        <h3>Aside Section 2</h3>
         <img src="https://placekitten.com/150/151" alt="cute kitten" />
         <p>
           Blue bottle health goth affogato kogi stumptown, irony vinyl poke
@@ -106,7 +106,7 @@
         </p>
       </section>
       <section class="benefit">
-        <h3>Cost Management</h3>
+        <h3>Aside Section 3</h3>
         <img src="https://placekitten.com/151/150" alt="cute kitten" />
         <p>
           Try-hard fixie mumblecore actually yr paleo flexitarian squid
@@ -118,7 +118,12 @@
     <!-- FOOTER -->
     <footer class="footer">
       <h4>Made with ❤️️ by Alex Geis</h4>
-      <p>&copy; 2019 Alex Geis - Solution Services, Inc.</p>
+      <p>&copy; <span id="dateFooter"></span> Fake Company, Inc.</p>
     </footer>
   </body>
+  <script>
+    const d = new Date();
+    const year = d.getFullYear();
+    document.getElementById("dateFooter").textContent = year;
+  </script>
 </html>
