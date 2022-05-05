@@ -26,8 +26,8 @@ header h1 {
 }
 
 /* selecing all ".seo" classes nested within h1 elements nested within header elements, applying white-ish text color */
-header h1 .seo {
-	color: #d9dcd6;
+header h1 .wordEmph {
+	color: #88d041;
 }
 
 /* selecing all nav elements nested within header elements, applying 20px font size, 15px of padding on top, 20px of margin to the right, floating element to the right side of screen and adding font family */
