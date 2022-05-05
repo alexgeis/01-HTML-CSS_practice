@@ -104,7 +104,7 @@ p {
 	width: 20%;
 	height: 100%;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: #2589bd;
+	background-color: #2a9d8f;
 }
 
 /* "benefit" class Selector, adding 32 px of margin on the bottom and a text color of white*/
@@ -133,6 +133,7 @@ p {
 .benefit img {
 	margin-bottom: 10px;
 	text-align: center;
+	color: #003049;
 }
 
 /* below 3 CONSOLIDATED INTO .BENEFIT IMG and .BENEFIT H3 SELECTORS ABOVE */
@@ -185,7 +186,7 @@ p {
 	padding: 50px;
 	height: 300px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: #0072bb;
+	background-color: #003049;
 	color: #ffffff;
 }
 
@@ -241,6 +242,7 @@ main img {
 main h2 {
 	margin-bottom: 20px;
 	font-size: 36px;
+	color: #FCBF49;
 }
 
 /*  BELOW 3 CONSOLIDATED INTO MAIN H2 ELEMENT SELECTOR ABOVE */
