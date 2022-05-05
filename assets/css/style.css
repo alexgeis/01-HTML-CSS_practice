@@ -8,14 +8,14 @@
 
 /* body element Selector, applying background color of off white */
 body {
-	background-color: #d9dcd6;
+	background-color: #EAE2B7;
 }
 
 /* header element Selector, applying background color of slightly blue, adding 20 px padding on all sides, text color of white, and adding font family */
 header {
 	padding: 20px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	background-color: #2a607c;
+	background-color: #003049;
 	color: #ffffff;
 }
 
@@ -27,7 +27,8 @@ header h1 {
 
 /* selecing all ".seo" classes nested within h1 elements nested within header elements, applying white-ish text color */
 header h1 .wordEmph {
-	color: #88d041;
+	color: #D62828;
+	/* color: #FB8500; */
 }
 
 /* selecing all nav elements nested within header elements, applying 20px font size, 15px of padding on top, 20px of margin to the right, floating element to the right side of screen and adding font family */
@@ -56,6 +57,9 @@ a {
 	text-decoration: none;
 }
 
+header nav ul li a {
+	color: #FCBF49;
+}
 /* p tag Selector, applying font size of 16px */
 p {
 	font-size: 16px;
@@ -63,10 +67,10 @@ p {
 
 /* "hero" class Selector, applying height of 800px, width 100% of parent container, 25px margin on the bottom, adding a background image from a URL and defining the position/size of the image */
 .hero {
-	height: 800px;
+	height: 600px;
 	width: 100%;
 	margin-bottom: 25px;
-	background-image: url("../images/digital-marketing-meeting.jpg");
+	background-image: url("../images/pexels-art-415574.jpg");
 	background-size: cover;
 	background-position: center;
 }
