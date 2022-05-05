@@ -113,21 +113,6 @@ p {
 	color: #ffffff;
 }
 
-/* CONSOLIDATED TO .BENEFIT CLASS ABOVE */
-/* .benefit-lead {
-	margin-bottom: 32px;
-	color: #ffffff;
-}
-
-.benefit-brand {
-	margin-bottom: 32px;
-	color: #ffffff;
-}
-
-.benefit-cost {
-	
-} */
-
 /* select all h3 and img elements within the "benefit" class Selector, adding 10 px of margin on the bottom and aligning text to the center*/
 .benefit h3,
 .benefit img {
