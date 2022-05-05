@@ -97,10 +97,10 @@ p {
 
 /* "benefits" class Selector, applying float right property, a clear property to both sides (to designate that the float property does not apply in these areas) ,adding 20 px of padding on all sides ,adding 20 px of margin on the right and a max-height of 200px, a width of 20% of the screen, a height of 100%, adding a font family, and a blue background color */
 .benefits {
-	margin-right: 20px;
+	margin-left: 20px;
 	padding: 20px;
 	clear: both;
-	float: right;
+	float: left;
 	width: 20%;
 	height: 100%;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
