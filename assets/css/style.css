@@ -195,20 +195,6 @@ main img {
 	max-height: 200px;
 }
 
-/*  BELOW 3 CONSOLIDATED INTO MAIN IMG ELEMENT SELECTOR ABOVE */
-/* 
-.search-engine-optimization img {
-	max-height: 200px;
-}
-
-.online-reputation-management img {
-	max-height: 200px;
-}
-
-.social-media-marketing img {
-	max-height: 200px;
-} */
-
 /* select all h2 elements within the main elements Selector, adding 20px of margin on the bottom, and font-size of 36px */
 main h2 {
 	margin-bottom: 20px;
