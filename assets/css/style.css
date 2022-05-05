@@ -95,8 +95,8 @@ p {
 	margin-left: 20px;
 }
 
-/* "benefits" class Selector, applying float right property, a clear property to both sides (to designate that the float property does not apply in these areas) ,adding 20 px of padding on all sides ,adding 20 px of margin on the right and a max-height of 200px, a width of 20% of the screen, a height of 100%, adding a font family, and a blue background color */
-.benefits {
+/* "asides" class Selector, applying float left property, a clear property to both sides (to designate that the float property does not apply in these areas) ,adding 20 px of padding on all sides ,adding 20 px of margin on the right and a max-height of 200px, a width of 20% of the screen, a height of 100%, adding a font family, and a blue background color */
+.asides {
 	margin-left: 20px;
 	padding: 20px;
 	clear: both;
@@ -107,22 +107,22 @@ p {
 	background-color: #2a9d8f;
 }
 
-/* "benefit" class Selector, adding 32 px of margin on the bottom and a text color of white*/
-.benefit {
+/* "aside" class Selector, adding 32 px of margin on the bottom and a text color of white*/
+.aside {
 	margin-bottom: 32px;
 	color: #ffffff;
 }
 
-/* select all h3 and img elements within the "benefit" class Selector, adding 10 px of margin on the bottom and aligning text to the center*/
-.benefit h3,
-.benefit img {
+/* select all h3 and img elements within the "aside" class Selector, adding 10 px of margin on the bottom and aligning text to the center*/
+.aside h3,
+.aside img {
 	margin-bottom: 10px;
 	text-align: center;
 	color: #003049;
 }
 
-/* select all img elements within the "benefit" class Selector, defining display style, adding 10 px of margin on the top/bottom and auto margin on the left and right, and a max-width of 150px */
-.benefit img {
+/* select all img elements within the "aside" class Selector, defining display style, adding 10 px of margin on the top/bottom and auto margin on the left and right, and a max-width of 150px */
+.aside img {
 	display: block;
 	margin: 10px auto;
 	max-width: 150px;
